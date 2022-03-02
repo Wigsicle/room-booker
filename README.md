@@ -7,5 +7,5 @@ Room Booker is a software application to help book school facilities in SP such 
 Built using Java, JavaFX and MySQL.
 
 Requirements:
-MySQL Database
+MySQL Database,
 MySQL Connector Java
