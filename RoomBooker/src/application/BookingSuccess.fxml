@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #666699;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BookingSuccessController">
+   <children>
+      <Label layoutX="539.0" layoutY="36.0" text="Booking Successful!" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="96.0" />
+         </font>
+      </Label>
+      <Button fx:id="bookanotherBtn" alignment="CENTER" layoutX="808.0" layoutY="950.0" mnemonicParsing="false" onAction="#bookAnother" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: #ffffff;" text="Book Another">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="logoutBtn" alignment="CENTER" layoutX="808.0" layoutY="1016.0" mnemonicParsing="false" onAction="#logout" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: #ffffff;" text="Log Out">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <FlowPane layoutX="733.0" layoutY="334.0" prefHeight="360.0" prefWidth="251.0">
+         <children>
+            <Label fx:id="typeLabel" alignment="CENTER" prefHeight="96.0" prefWidth="455.0" style="-fx-border-color: #ffffff;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="locationLabel" alignment="CENTER" prefHeight="96.0" prefWidth="455.0" style="-fx-border-color: #ffffff;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="timeLabel" alignment="CENTER" prefHeight="96.0" prefWidth="455.0" style="-fx-border-color: #ffffff;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="dateLabel" alignment="CENTER" prefHeight="100.0" prefWidth="455.0" style="-fx-border-color: #ffffff;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </FlowPane>
+      <BorderPane layoutX="1520.0" layoutY="-241.0" prefHeight="1537.0" prefWidth="349.0" style="-fx-background-color: #29293d;" />
+   </children>
+</AnchorPane>
