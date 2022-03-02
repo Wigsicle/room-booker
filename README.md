@@ -8,6 +8,4 @@ Built using Java, JavaFX and MySQL.
 
 Requirements:
 MySQL Database
-
-
-![image](https://user-images.githubusercontent.com/43910913/156420804-66c34347-ecc0-4dc2-9b9f-1ed75f13e296.png)
+MySQL Connector Java
